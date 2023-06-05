@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 10px;
+        }
+
+        .red-container {
+            width: 600px;
+            height: 600px;
+            background-color: white;
+            font-family: sans-serif;
+            color: black;
+            box-shadow: 0px 5px 15px gray;
+            /* border: 1px gray solid; */
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .red-container p {
+            color: gray;
+            margin-left: 2rem;
+        }
+
+        .red-container h1 {
+            margin-top: 2rem;
+            margin-left: 2rem;
+        }
+
+        .contact-us {
+            display: flex;
+            flex-direction: column;
+            margin-top: 2rem;
+        }
+
+        input {
+            height: 3rem;
+            outline: none;
+            background-color: rgb(217, 217, 217);
+            border: none;
+            padding-left: 10px;
+            border-radius: 9px;
+            color: black;
+        }
+
+        button {
+            color: white;
+            background-color: blue;
+            border: none;
+            height: 40px;
+            border-radius: 10px;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="red-container">
+            <h1>
+                Войти
+            </h1>
+            <p>
+                Войдите чтоби продолжить
+            </p><br><br><hr>
+            <div class="contact-us">
+                <label for="name">Логин</label>
+                <input type="text" placeholder="Введите свой логин">
+                <label for="name">Пароль</label>
+                <input type="text" placeholder="Введите свой пароль">
+                <button>
+                    enter
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
